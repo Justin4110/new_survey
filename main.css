@@ -1,0 +1,48 @@
+#title {
+    text-align: center;
+    color: silver;
+}
+#description {
+    color:silver;
+    text-align: center;
+}
+#survey-form {
+    text-align: center;
+}
+#main {
+    background-color: blue;
+    padding: 50px;
+}
+.resizedTextbox {
+    width: 300px;
+    padding: inherit;
+    margin-top: 20px;
+}
+#name-label {
+    color: silver;
+}
+#email-label {
+    color: silver;
+}
+#number-label {
+    color: silver;
+    padding-left: 10px;
+}
+#dropdown {
+    margin-top: 20px;
+    margin-right: 80px;
+    width: 300px;
+}
+#dropdown-label {
+    color:silver;
+}
+#link1 {
+    color: silver;
+}
+#description-checkbox {
+    color: silver;
+}
+#textarea {
+    border: none;
+    resize: none;
+}
