@@ -1,16 +1,21 @@
 <main id=main>
     <title>Survey Form</title>
+
     <head id="head">
         <link rel="stylesheet" href="main.css">
         <h1 id="title">Your Favorite NFL Team</h1>
-        <p id="description">Which NFL <a href="https://www.detroitlions.com/" target="_blank" id="link1">team</a> is your favorite</p>
+        <p id="description">Which NFL <a href="https://www.detroitlions.com/" target="_blank" id="link1">team</a> is
+            your favorite</p>
         <form id="survey-form">
             <label for="name" id="name-label">Name</label>
-            <input type="text" class="resizedTextbox" id="name" name="name" placeholder="Enter your name" required><br />
+            <input type="text" class="resizedTextbox" id="name" name="name" placeholder="Enter your name"
+                required><br />
             <label for="email" id="email-label">Email</label>
-            <input type="email" class="resizedTextbox" id="email" name="email" placeholder="Enter your email" required><br />
+            <input type="email" class="resizedTextbox" id="email" name="email" placeholder="Enter your email"
+                required><br />
             <label for="age" id="number-label">Age</label>
-            <input type="number" class="resizedTextbox" id="number" name="age" min="12" max="150" placeholder="Enter your age" required><br />
+            <input type="number" class="resizedTextbox" id="number" name="age" min="12" max="150"
+                placeholder="Enter your age" required><br />
             <label for="dropdown" id="dropdown-label">Pick your favorite</label>
             <select multiple="dropdown" id="dropdown">
                 <option value="Arizona Cardinals">Arizona Cardinals</option>
@@ -45,19 +50,27 @@
                 <option value="Tampa Bay Buccaneers">Tampa Bay Buccaneers</option>
                 <option value="Tennessee Titans">Tennessee Titans</option>
                 <option value="Washington Football Team">Washington Football Team</option>
-            </select>
+            </select><br />
+            <p id="p3"><strong>Background Information</strong></p>
+            <label id="radio-label" class="container">Male</label>
+            <input type="radio" value="radio1" name="radio" id="radio"><br />
+            <label id="radio-label" class="container">Female</label>
+            <input type="radio" value="radio2" name="radio" id="radio"><br />
+            <label id="radio-label" class="container">Other</label>
+            <input type="radio" value="radio3" name="radio" id="radio"><br />
+            <p id="description-checkbox"><strong>Select all that apply</strong></p>
+            <label id="checkbox-label" class="container">Current Athelete</label>
+            <input type="checkbox" id="checkbox" name="checkbox" value="check1"><br />
+            <label id="checkbox-label" class="container">Former Athelete</label>
+            <input type="checkbox" id="checkbox" name="checkbox" value="check1"><br />
+            <label id="checkbox-label" class="container">Coach</label>
+            <input type="checkbox" id="checkbox" name="checkbox" value="check2"><br />
+            <textarea id="textarea" placeholder="Any additional comments" rows="5" cols="100"></textarea>
+
             <br />
-            <p id="description-checkbox">Select all that apply</p>
-            <label id="checkbox-label">Current Athelete</label>
-            <input type="checkbox" id="checkbox" name="checkbox"><br />
-            <label id="checkbox-label">Former Athelete</label>
-            <input type="checkbox" id="checkbox" name="checkbox"><br />
-            <textarea id="textarea" placeholder="Any additional comments" rows="5" cols="100" ></textarea>
-            
-<br />
             <label for="submit" id="submit-label">Submit</label>
             <input type="submit" id="submit" name="submit" required>
         </form>
-    
+
     </head>
 </main>

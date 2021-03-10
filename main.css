@@ -41,8 +41,28 @@
 }
 #description-checkbox {
     color: silver;
+    font-size: 7mm;
 }
 #textarea {
     border: none;
     resize: none;
+}
+.container input:checked ~ .checkmark {
+    background-color: silver;
+}
+#checkbox-label {
+    color: silver;
+}
+#submit-label {
+    color: silver;
+}
+#submit {
+    background-color: silver;
+}
+#radio-label {
+    color: silver;
+}
+#p3 {
+    color:silver;
+    font-size: 7mm;
 }
