@@ -1,17 +1,17 @@
 #title {
     text-align: center;
-    color: silver;
+    color: rgb(10, 223, 184);
 }
 #description {
-    color:silver;
+    color:rgb(10, 223, 184);
     text-align: center;
 }
 #survey-form {
     text-align: center;
 }
 #main {
-    background-color: blue;
-    padding: 50px;
+    background: linear-gradient(rgb(18, 18, 245), rgb(220, 220, 220));
+    padding-bottom: 500px;
 }
 .resizedTextbox {
     width: 300px;
@@ -19,13 +19,13 @@
     margin-top: 20px;
 }
 #name-label {
-    color: silver;
+    color: rgb(10, 223, 184);
 }
 #email-label {
-    color: silver;
+    color: rgb(10, 223, 184);
 }
 #number-label {
-    color: silver;
+    color: rgb(10, 223, 184);
     padding-left: 10px;
 }
 #dropdown {
@@ -34,13 +34,13 @@
     width: 300px;
 }
 #dropdown-label {
-    color:silver;
+    color:rgb(10, 223, 184);
 }
 #link1 {
-    color: silver;
+    color: rgb(10, 223, 184);
 }
 #description-checkbox {
-    color: silver;
+    color: rgb(10, 223, 184);
     font-size: 7mm;
 }
 #textarea {
@@ -48,21 +48,21 @@
     resize: none;
 }
 .container input:checked ~ .checkmark {
-    background-color: silver;
+    background-color: rgb(10, 223, 184);
 }
 #checkbox-label {
-    color: silver;
+    color: rgb(10, 223, 184);
 }
 #submit-label {
-    color: silver;
+    color: rgb(10, 223, 184);
 }
 #submit {
-    background-color: silver;
+    background: linear-gradient(left to right, silver, blue) ;
 }
 #radio-label {
-    color: silver;
+    color: rgb(10, 223, 184);
 }
-#p3 {
-    color:silver;
+#h1-background {
+    color:rgb(10, 223, 184);
     font-size: 7mm;
 }
